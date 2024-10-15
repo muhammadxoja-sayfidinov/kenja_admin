@@ -1,0 +1,89 @@
+body {
+    background-color: #1b1b2f;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0e0e1f;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.navbar a.active {
+    background-color: #4ecca3;
+    border-radius: 5px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #0e1624, #283046);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.card small {
+    display: block;
+    margin-top: 10px;
+    color: #4ecca3;
+}
+
+.statistics {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0e0e1f;
+}
+
+.statistics table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.statistics table th,
+.statistics table td {
+    padding: 15px;
+    border: 1px solid #4ecca3;
+    text-align: left;
+}
+
+.statistics table th {
+    background-color: #2c2c54;
+}
+
+.statistics table tr:nth-child(even) {
+    background-color: #212141;
+}
