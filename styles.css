@@ -41,12 +41,26 @@ body {
     gap: 20px;
 }
 
+.card-container .card:nth-child(1){
+    background: radial-gradient(circle at right, rgba(0, 255, 153, 0.5) 10%, rgba(0, 0, 0, 0) 60%);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.card-container .card:nth-child(2){
+    background: radial-gradient(circle at right, rgba(255, 153, 0, 0.5) 10%, rgba(0, 0, 0, 0) 60%);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.card-container .card:nth-child(3){
+    background: radial-gradient(circle at right, rgba(133, 0, 205, 0.5) 10%, rgba(0, 0, 0, 0) 60%);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
 .card {
     flex: 1;
     padding: 20px;
     border-radius: 10px;
-    background: linear-gradient(145deg, #0e1624, #283046);
+    /* background: linear-gradient(145deg, #0e1624, #283046);*/
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.59);
 }
 
 .card h2 {
@@ -87,3 +101,14 @@ body {
 .statistics table tr:nth-child(even) {
     background-color: #212141;
 }
+
+
+tbody td:nth-child(6) {
+    color: red; 
+}
+
+
+tbody td:nth-child(5) {
+    color: green; 
+}
+/* fv */
