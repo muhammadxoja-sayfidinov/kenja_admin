@@ -4,34 +4,45 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #0e0e1f;
+
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    font-weight: 100;
+
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #0e0e1f;
-    border-radius: 10px;
-}
+    padding: 15px;
+    background-color: #1f1f39c3;
+    border-radius: 40px;
+    width: 500px;
+    margin: auto;
 
+}
+.admin{
+    margin-top: 70px;
+    font-weight: 100;
+}
 .navbar a {
     color: #ffffff;
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
-    font-weight: 500;
+
 }
 
 .navbar a.active {
-    background-color: #4ecca3;
-    border-radius: 5px;
+    background-color: #4e85cc86;
+    border-radius: 30px;
+
 }
 
 .card-container {
@@ -75,32 +86,55 @@ body {
 }
 
 .statistics {
-    margin-top: 40px;
-    padding: 20px;
+    margin-top: 60px;
+
     border-radius: 10px;
-    background-color: #0e0e1f;
+    /* background-color: #0e0e1f; */
 }
 
 .statistics table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color: #1f1f39c3;
+
 }
+
+
+/* .statistics table tr{
+    height: 50px;
+    border: 2px solid blanchedalmond;
+    position: relative;
+}   */
+
+/* tbody tr{
+    border-collapse: separate; 
+    border-spacing: 0 50px; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+} */
+
+/* tbody tr {
+    display: block; 
+    margin-bottom: 10px; 
+} */
 
 .statistics table th,
 .statistics table td {
     padding: 15px;
-    border: 1px solid #4ecca3;
+    border: 30px;
     text-align: left;
 }
 
 .statistics table th {
-    background-color: #2c2c54;
+    /* background-color: #2c2c54; */
+
+
 }
 
-.statistics table tr:nth-child(even) {
+/* .statistics table tr:nth-child(even) {
     background-color: #212141;
-}
+} */
 
 
 tbody td:nth-child(6) {
