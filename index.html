@@ -16,18 +16,49 @@
             <!-- <button id="openModalBtn">qoshish </button> -->
         </div>
 
-         
+    <!-- Modal oynasi -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModalBtn">&times;</span>
+            
+            <h2>Kontent qo'shish</h2>
+            
+            <!-- Sarlavha qismi -->
+            <label for="title">Sarlavha:</label>
+            <input type="text" id="title" placeholder="Sarlavha nomini kiriting">
 
-        <div id="modal" class="modal">
-            <div class="modal-content">
-                <span class="close-btn" id="closeModalBtn">&times;</span>
-                <h2>Ro'yxatdan o'tish</h2>
-                <input type="email" placeholder="Email manzilingizni kiriting">
-                <input type="password" placeholder="Parol kiriting">
-                <button>Ro'yxatdan o'tish</button>
+            <!-- Kontent turi qismi -->
+            <h3>Kontent turi:</h3>
+            <div class="content-type-buttons">
+                <button class="content-btn" id="exerciseBtn">Mashq</button>
+                <button class="content-btn" id="dietBtn">Taomnoma</button>
             </div>
+
+            <!-- Kategoriyalar qismi -->
+            <h3>Kategoriyalar:</h3>
+            <div class="category-buttons">
+                <button class="category-btn" id="weightLossBtn">Vazn yo'qotish</button>
+                <button class="category-btn" id="weightGainBtn">Vazn yig'ish</button>
+                <button class="category-btn" id="muscleBuildingBtn">Muskul chiqarish</button>
+            </div>
+
+            <!-- Qo'shimcha kommentariya -->
+            <label for="comment">Qo'shimcha kommentariya:</label>
+            <textarea id="comment" placeholder="Qo'shimcha ma'lumotlarni yozing" style="width: 150px; height: 150px;"></textarea>
+
+            <!-- Havola qismi -->
+            <label for="link">Havola:</label>
+            <input type="text" id="link" placeholder="Havolani kiriting">
+
+            <!-- Tasnif qismi -->
+            <label for="description">Tasnif:</label>
+            <textarea id="description" placeholder="Tasnifni kiriting" style="width: 150px; height: 100px;"></textarea>
+
+            <button class="submit-btn">Jo'natish</button>
         </div>
-    
+    </div>
+
+
         <script src="script.js"></script>
 
 
