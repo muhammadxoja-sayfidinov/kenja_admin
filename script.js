@@ -1,6 +1,6 @@
 
 
-// Elementlarni olish
+
 const openModalBtn = document.getElementById('openModalBtn');
 const modal = document.getElementById('modal');
 const closeModalBtn = document.getElementById('closeModalBtn');
@@ -41,3 +41,6 @@ categoryBtns.forEach(btn => {
         btn.classList.add('active');
     });
 });
+
+
+
