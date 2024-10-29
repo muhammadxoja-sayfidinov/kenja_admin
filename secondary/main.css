@@ -1,0 +1,105 @@
+
+body {
+    background-color: #1b1b2f;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #0e0e1f; */
+    background: #090d15;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 100;
+
+}
+
+
+
+        /* Jadval uchun uslublar */
+
+        .admin-2{
+            margin-top: 70px;
+            font-weight: 100;
+        }
+        .table-container {
+            /* padding: 20px; */
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .table-container table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 15px; /* Satrlar orasidagi bo'shliq */
+        }
+
+        .table-container th, .table-container td {
+            padding: 12px;
+            text-align: left;
+            background-color: #141426f3;
+        }
+        .table-container{
+            /* border-top-left-radius: 20px;
+            border-top-right-radius: 20px; */
+            border-radius: 20px;
+            
+        }
+
+
+        .table-container th {
+            color: #ffffff;
+            font-weight: normal;
+        }
+
+        .table-container tr:hover td {
+            background-color: #343450;
+        }
+
+        .table-container td.highlight-green {
+            color: #4caf50;
+        }
+
+        .table-container td.highlight-red {
+            color: #f44336;
+        }
+
+        /* Sahifa uslublari */
+        .pagination {
+            display: flex;
+            justify-content: safe;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            background-color: #1e1e2e;
+            border: none;
+            color: #c3c3c3;
+            padding: 10px 15px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .pagination button.active {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        .pagination button:hover {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+
+
+
+
+
+
+

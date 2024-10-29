@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tizimga kirish</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Tizimga kirish</h2>
+        <form id="registrationForm">
+            <div class="input-container">
+                <input type="text" placeholder="Login" required>
+            </div>
+            <div class="input-container">
+                <input type="password" placeholder="Parolingiz" id="password" required>
+                <span class="toggle-password" onclick="togglePassword()">👁️</span>
+            </div>
+            <button type="submit">Kirish</button>
+        </form>
+    </div>
+
+    <script>
+        function togglePassword() {
+            var passwordInput = document.getElementById("password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            window.location.href = 'main/index.html'; 
+            
+        });
+    </script>
+</body>
+</html>
